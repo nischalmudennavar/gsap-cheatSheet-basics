@@ -26,7 +26,7 @@
 
                             gsap.to('.subject-translatex',{
                                 <br>
-                                x:100,
+                                <span style="color:white;"> x:100,</span>
                                 <br>
                                 duration:1,
                                 <br>
@@ -55,7 +55,7 @@
 
                             gsap.to('.subject-translatey',{
                                 <br>
-                                y:100,
+                               <span style="color:white;"> y:100,</span>
                                 <br>
                                 duration:1,
                                 <br>
@@ -69,6 +69,40 @@
                 </div>
                 <div class="animation">
                     <div class="subject-translatey subject">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="effect translatey">
+            <div class="effect-container">
+                <div class="code-and-trigger">
+                    <h1>Stagger</h1>
+                    <code class="language-javascript">
+                            document.querySelector('#effect-3').onclick = function(){
+                            <br>
+
+                            gsap.to('.stagger',{
+                                <br>
+                                x:100,
+                                <br>
+                                duration:0.5,
+                                <br>
+                                <span style="color:white;">stagger:0.4,</span>
+                                <br>
+                                
+                            })
+                        }
+                    </code>
+                    <button class="play-effect-btn" id="effect-3">
+                        Play effect ▶️
+                    </button>
+                </div>
+                <div class="animation">
+                    <div class="subject-translatex subject">
+
+                    </div>
+                    <div class="subject-translatex subject">
 
                     </div>
                 </div>

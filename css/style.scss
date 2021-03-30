@@ -62,7 +62,8 @@ $font-style: 'Ubuntu Mono', monospace;
                     color:$heading-color;
                     font-family: $font-style;
                     margin:10px;
-                    border-radius: 5px;
+                    border-radius: 10px;
+                    line-height:30px;;
 
 
                 }
@@ -97,12 +98,14 @@ $font-style: 'Ubuntu Mono', monospace;
                 display:flex;
                 justify-content:center;
                 align-items:center;
+                flex-direction: column;
 
                 .subject{
                     height:100px;
                     width:100px;
                     background: $subject-color;
                     border-radius: 10px;;
+                    margin:10px;
                    
                 }
 
