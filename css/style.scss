@@ -1,0 +1,119 @@
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+$subject-color:#575aff;
+$bg:rgb(10, 0, 32);;
+$sub-bg:rgb(26, 12, 53);;
+$border-color:#0004d4;
+$heading-color:#575aff;
+$font-style: 'Ubuntu Mono', monospace;
+
+
+
+.container {
+
+    min-height: 100vh;
+    background: $bg;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items:center;
+    .effect{
+        
+        height:50vh;
+        width:100%;
+        
+        border: 1px solid $border-color;;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+        .effect-container{
+
+            width:80%;
+            height:100%;
+            display:flex;
+            background: $sub-bg;
+            justify-content:space-around;
+            align-items:center;
+
+            .code-and-trigger{
+
+                width:50%;
+                height:100%;
+                border:1px solid $border-color;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction: column;
+                // background: #000;
+                h1{
+                    font-family: $font-style;
+                    color:$heading-color;
+                    letter-spacing: 1px ;
+                }
+                code{
+                   padding:30px;
+                    background: rgba(0, 0, 0, 0.363);
+                    font-size:25px;
+                    color:$heading-color;
+                    font-family: $font-style;
+                    margin:10px;
+                    border-radius: 5px;
+
+
+                }
+                .play-effect-btn{
+
+                    padding:20px;
+                    border-radius: 10px;;
+                    background:$sub-bg;
+                    border:1px solid $border-color;
+                    transition:all 100ms ease-in-out;
+                    color:white;
+                    font-size:20px;
+                    font-family: $font-style;
+                    outline:none;
+                    cursor:pointer;
+                    &:active{
+
+                        transition:all 100ms ease-in-out;
+                        background:rgba(0, 13, 88, 0.507);
+                        box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.137);
+                        transform:scale(1.02);
+                        
+                    }
+                }
+
+            }
+            .animation{
+
+                width:50%;
+                height:100%;
+                border:1px solid $border-color;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+
+                .subject{
+                    height:100px;
+                    width:100px;
+                    background: $subject-color;
+                    border-radius: 10px;;
+                   
+                }
+
+            }
+
+        }
+        
+        
+
+    }
+
+
+}
+

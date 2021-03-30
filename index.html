@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/default.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/go.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+    <title> GSAP CheatSheet By Nischal Mudennavar </title>
+</head>
+<body>
+    <div class="container">
+        <div class="effect translatex">
+            <div class="effect-container">
+                <div class="code-and-trigger">
+                    <h1>TranslateX</h1>
+                    <code class="language-javascript">
+                            document.querySelector('#effect-1').onclick = function(){
+                            <br>
+
+                            gsap.to('.subject-translatex',{
+                                <br>
+                                x:100,
+                                <br>
+                                duration:1,
+                                <br>
+                                
+                            })
+                        }
+                    </code>
+                    <button class="play-effect-btn" id="effect-1">
+                        Play effect ▶️
+                    </button>
+                </div>
+                <div class="animation">
+                    <div class="subject-translatex subject">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="effect translatey">
+            <div class="effect-container">
+                <div class="code-and-trigger">
+                    <h1>TranslateY</h1>
+                    <code class="language-javascript">
+                            document.querySelector('#effect-2').onclick = function(){
+                            <br>
+
+                            gsap.to('.subject-translatey',{
+                                <br>
+                                y:100,
+                                <br>
+                                duration:1,
+                                <br>
+                                
+                            })
+                        }
+                    </code>
+                    <button class="play-effect-btn" id="effect-2">
+                        Play effect ▶️
+                    </button>
+                </div>
+                <div class="animation">
+                    <div class="subject-translatey subject">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+</body>
+</html>

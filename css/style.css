@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  min-height: 100vh;
+  background: #0a0020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .effect {
+  height: 50vh;
+  width: 100%;
+  border: 1px solid #0004d4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .effect .effect-container {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #1a0c35;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .effect .effect-container .code-and-trigger {
+  width: 50%;
+  height: 100%;
+  border: 1px solid #0004d4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .effect .effect-container .code-and-trigger h1 {
+  font-family: "Ubuntu Mono", monospace;
+  color: #575aff;
+  letter-spacing: 1px;
+}
+
+.container .effect .effect-container .code-and-trigger code {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.363);
+  font-size: 25px;
+  color: #575aff;
+  font-family: "Ubuntu Mono", monospace;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.container .effect .effect-container .code-and-trigger .play-effect-btn {
+  padding: 20px;
+  border-radius: 10px;
+  background: #1a0c35;
+  border: 1px solid #0004d4;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  color: white;
+  font-size: 20px;
+  font-family: "Ubuntu Mono", monospace;
+  outline: none;
+  cursor: pointer;
+}
+
+.container .effect .effect-container .code-and-trigger .play-effect-btn:active {
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  background: rgba(0, 13, 88, 0.507);
+  -webkit-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.137);
+          box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.137);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.container .effect .effect-container .animation {
+  width: 50%;
+  height: 100%;
+  border: 1px solid #0004d4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .effect .effect-container .animation .subject {
+  height: 100px;
+  width: 100px;
+  background: #575aff;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
