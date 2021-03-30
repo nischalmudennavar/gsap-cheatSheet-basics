@@ -19,7 +19,7 @@ document.querySelector('#effect-2').onclick = function(){
 
 document.querySelector('#effect-3').onclick = function(){
 
-    gsap.to('.subject-translatex',{
+    gsap.to('.subject-translatexs',{
         x:100,
         duration:0.5,
         stagger:0.4
