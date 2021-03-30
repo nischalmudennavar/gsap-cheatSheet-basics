@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/default.min.css">
-
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
@@ -16,6 +15,19 @@
 </head>
 <body>
     <div class="container">
+        <div class="cdn-container">
+            <div class="cdn language-html" >
+                <textarea rows="2" cols="60" id="cdn">https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js</textarea>
+            </div>
+            <div class="btn-area">
+              
+            <div class="copy-btn" onclick="myFunction()" >
+               
+                <i class="fas fa-copy"></i>
+            </div>
+            </div>
+            
+        </div>
         <div class="effect translatex">
             <div class="effect-container">
                 <div class="code-and-trigger">
@@ -34,9 +46,14 @@
                             })
                         }
                     </code>
+                   <div class="button-container">
                     <button class="play-effect-btn" id="effect-1">
                         Play effect ▶️
                     </button>
+                    <button class="play-effect-btn" id="effect-1-2">
+                        Reverse effect ▶️
+                    </button>
+                   </div>
                 </div>
                 <div class="animation">
                     <div class="subject-translatex subject">
@@ -63,9 +80,14 @@
                             })
                         }
                     </code>
-                    <button class="play-effect-btn" id="effect-2">
-                        Play effect ▶️
-                    </button>
+                    <div class="button-container">
+                        <button class="play-effect-btn" id="effect-2">
+                            Play effect ▶️
+                        </button>
+                        <button class="play-effect-btn" id="effect-2-2">
+                            Reverse effect ▶️
+                        </button>
+                    </div>
                 </div>
                 <div class="animation">
                     <div class="subject-translatey subject">
@@ -94,9 +116,14 @@
                             })
                         }
                     </code>
-                    <button class="play-effect-btn" id="effect-3">
-                        Play effect ▶️
-                    </button>
+                    <div class="button-container">
+                        <button class="play-effect-btn" id="effect-3">
+                            Play effect ▶️
+                        </button>
+                        <button class="play-effect-btn" id="effect-3-2">
+                            Reverse effect ▶️
+                        </button>
+                    </div>
                 </div>
                 <div class="animation">
                     <div class="subject-translatexs subject">
@@ -111,6 +138,6 @@
        
     </div>
     <script src="./js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"  crossorigin="anonymous"></script>
 </body>
 </html>

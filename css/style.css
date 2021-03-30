@@ -22,6 +22,59 @@ body {
           align-items: center;
 }
 
+.container .cdn-container {
+  height: 20vh;
+  width: 80%;
+  background: #1a0c35;
+  margin: 20px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .cdn-container .cdn textarea {
+  font-size: 22px;
+  font-family: "Ubuntu Mono", monospace;
+  color: rgba(255, 255, 255, 0.486);
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.363);
+  border-radius: 10px;
+  outline: none;
+  overflow: hidden;
+}
+
+.container .cdn-container .copy-btn {
+  padding: 27px;
+  border-radius: 10px;
+  background: #1a0c35;
+  border: 1px solid #0004d4;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  color: #575aff;
+  font-size: 30px;
+  font-family: "Ubuntu Mono", monospace;
+  outline: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.container .cdn-container .copy-btn:active {
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  background: rgba(0, 13, 88, 0.507);
+  -webkit-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.137);
+          box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.137);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
 .container .effect {
   height: 50vh;
   width: 100%;
@@ -98,6 +151,7 @@ body {
   font-size: 20px;
   font-family: "Ubuntu Mono", monospace;
   outline: none;
+  margin: 10px;
   cursor: pointer;
 }
 
