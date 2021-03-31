@@ -14,10 +14,10 @@
     <title> GSAP CheatSheet By Nischal Mudennavar </title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="container">
         <div class="cdn-container">
             <div class="cdn language-html" >
-                <textarea rows="2" cols="60" id="cdn">https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js</textarea>
+                <textarea rows="1" cols="60" id="cdn">https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js</textarea>
             </div>
             <div class="btn-area">
               
@@ -96,7 +96,7 @@
                 </div>
             </div>
         </div>
-        <div class="effect translatey">
+        <div class="effect Stagger">
             <div class="effect-container">
                 <div class="code-and-trigger">
                     <h1>Stagger</h1>
@@ -135,8 +135,48 @@
                 </div>
             </div>
         </div>
+        <div class="effect Stagger">
+            <div class="effect-container">
+                <div class="code-and-trigger">
+                    <h1>Stagger</h1>
+                    <code class="language-javascript">
+                            document.querySelector('#effect-4').onclick = function(){
+                            <br>
+
+                            gsap.to('.stagger',{
+                                <br>
+                                x:100,
+                                <br>
+                                duration:0.5,
+                                <br>
+                                rotate:30,
+                                <br>
+                                <span style="color:white;">stagger:0.4,</span>
+                                <br>
+                                
+                            })
+                        }
+                    </code>
+                    <div class="button-container">
+                        <button class="play-effect-btn" id="effect-4">
+                            Play effect ▶️
+                        </button>
+                        <button class="play-effect-btn" id="effect-4-2">
+                            Reverse effect ▶️
+                        </button>
+                    </div>
+                </div>
+                <div class="animation">
+                    <div class="subject-rotate subject">
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
        
     </div>
+    <script src="./js/momentoScroll.js"></script>
     <script src="./js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"  crossorigin="anonymous"></script>
 </body>

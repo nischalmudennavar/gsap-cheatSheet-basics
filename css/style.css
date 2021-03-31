@@ -4,6 +4,25 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0a0020;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #575aff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0004d4;
+}
+
 .container {
   min-height: 100vh;
   background: #0a0020;

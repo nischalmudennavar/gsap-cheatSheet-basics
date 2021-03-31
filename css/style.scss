@@ -11,6 +11,24 @@ $border-color:#0004d4;
 $heading-color:#575aff;
 $font-style: 'Ubuntu Mono', monospace;
 
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(10, 0, 32);;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #575aff;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0004d4;
+  }
 
 
 .container {
@@ -43,6 +61,7 @@ $font-style: 'Ubuntu Mono', monospace;
                 border-radius: 10px;;
                 outline:none;
                 overflow:hidden;
+               
                
             
             }
